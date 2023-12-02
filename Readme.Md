@@ -1,1 +1,1 @@
-# This is the first release og counseal.
+# This is the first release of counseal.
