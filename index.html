@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <div class="flex ">
-        
-    <div class="w-full h-screen  md:w-1/2 bg-slate-200 flex justify-center items-center">
-        <div>
-            <!--img src -- logo here -->
-            <img class="w-60 h-32 " src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="">  
-            <input class="rounded-t-lg w-80 h-8 p-4 "  type="text" placeholder="Email"><br><br>
-            <input class="rounded-bl-lg w-80 h-8 p-4" type="text" placeholder="Password"><br><br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="flex ">
             
-            <div class="flex space-x-2 ">
-                <input  type="checkbox" value="Remember Me?">
-                <label class=" mt-2 text-xs" for="rememberme">Remember Me?</label>
-                <a href= "" class=" mt-2 text-xs">(Having Trouble?)</a> 
-                <input class="box-border rounded-br-lg h-8 w-16 bg-cyan-500"  type="submit" id="submit" value="login"><br>
+            <div class="w-full h-screen  md:w-1/2 bg-slate-200 flex justify-center items-center">
+                
+                <div>                    
+                    <img class="w-60 h-32 " src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="">  
+                    <input class="rounded-t-lg w-80 h-8 p-4 "  type="text" placeholder="Email"><br><br>
+                    <input class="rounded-bl-lg w-80 h-8 p-4" type="text" placeholder="Password"><br><br>
+                    
+                    <div class="flex justify-between text-slate-600  ">
+                        <input  class="w-4 square" type="checkbox" value="Remember Me?">
+                        <label class="mt-2 text-xs mr-4" for="rememberme">Remember Me?</label>
+                        
+                        <a href= "" class="mt-2 text-xs mr-10">(Having Trouble?)</a> 
+                        <input class="box-border rounded-br-lg h-8 w-16 bg-cyan-500"  type="submit" id="submit" value="login">
+                    </div> <br><br>
+                    <div class="w-28 mx-auto visible md:invisible md:w-0">
+                        <a  class="text-center p-1 bg-cyan-500">Install this app</a>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-        </div>
-        <!--w-full . . . maybe you have to give the div a width for regular size screen
-            the md stands for when the screen is medium 
-        typingtest.com I think 
-        -->
-        <!-- my image is repeating fixxxxxxx -->
-        
-        <div class="invisible w-0 md:visible md:w-1/2  m-auto h-screen object-full" style="background-image: url(nature.jpg)">
+                        <!--w-full . . . maybe you have to give the div a width for regular size screen
+                        the md stands for when the screen is medium 
+                        typingtest.com I think 
+                                            -->
+                            <!-- my image is repeating fixxxxxxx -->
+            
+            <div class="invisible w-0 md:visible md:w-1/2  m-auto h-screen object-full" style="background-image: url(nature.jpg)"></div>
+
             
         </div>
-        
-    </div>
-</body>
+    </body>
 </html>
